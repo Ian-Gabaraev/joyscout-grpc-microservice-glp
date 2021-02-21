@@ -2,7 +2,7 @@
 
 from concurrent import futures
 
-from scripts import utils
+import utils
 
 import grpc
 
