@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+/* The request body is empty */
+message LastPageRequest {}
+
+/* Just the integer representation of the last page */
+message LastPage {
+  int32 page = 1;
+}
+
+/* The response is just that, the last page number*/
+message LastPageResponse{
+  int32 last_page = 1;
+}
+
+/* Defining the service */
+service PS4StoreLastPage {
+  rpc GetLastPage (LastPageRequest) returns (LastPageResponse);
+}
