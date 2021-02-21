@@ -4,7 +4,7 @@
 #### Implements Binary Search to retrieve the last page on the PlayStation Store.
 #### Facilitates web scraping by introducing a tad of certainty.
 
-##Usage
+# Usage
 ```
 cd ps4grpcmicroservice-glp
 docker build . -t lastpage
